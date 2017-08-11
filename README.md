@@ -1,2 +1,0 @@
-# learning-javascript
-learning javascript
