@@ -1,9 +1,16 @@
 # ProGit 读书笔记
-[progit](http://iissnan.com/progit/html/zh/ch2_3.html)
+## **[ProGit在线阅读链接](http://iissnan.com/progit/html/zh/ch2_3.html)**
 # 1.起步
 # 2.Git基础
 ## 2.1 取得项目的Git仓库
+### 2.1.1 在工作目录中初始化新仓库  
+git init
+从工作目录里面直接输入上面的命令，可以让一个目录直接接受git的管理。
+### 2.1.1 从现有仓库克隆  
+git clone [url]
+克隆一个仓库到本地
 ## 2.2 记录每次更新到仓库
+
 ## 2.3 查看提交记录
 时间：[20170813]  
 
