@@ -44,3 +44,31 @@ shit！老子按ESC,CTRL-C,写exit都不行，居然是个Q
 ***
 其他有用的选项和参数：
 - --since/until:可以用时间
+- --author 显示该作者的更新
+- --graph 图形化的现实更新
+
+**gitk** 图形化窗口
+
+## 2.4 撤销操作
+
+## 2.5 远程仓库使用
+1. 查看远程仓库：git remote -v  
+1.1 v 列出相应的克隆地址。如果有多个仓库，也会列出来。但是为什么会有多个仓库呢？这个需要我思考。
+2. 添加一个远程仓库：git remote add [shortname] [url]  
+2.1 利用shortname，可以直接fetch.例子：git fetch [shortname]
+3. 从远程仓库抓取数据：git fetch [remote-name]  
+3.1 fetch只拉回来，不合并
+3.2 git pull，拉回来，并且merge到本地分支
+3.3 git clone 本质上就是将master分支
+4. 推动到远程仓库  
+4.1  git push origin master:git push [remote-name] [branch-name]
+5. 查看远程仓库信息  
+5.1 git remote show [remote-name]  
+6. 改名和删除远程仓库  
+6.1 git remote rename [origin-name] [taget-name]
+6.2 git remote rm [name]
+## 2.6 打标签
+
+## 2.7 技巧和窍门
+
+## 2.8 小结
